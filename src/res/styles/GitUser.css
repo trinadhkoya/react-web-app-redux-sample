@@ -1,0 +1,10 @@
+.imgStyle {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.gitUserStyle {
+    font-family: Menlo;
+    font-size: 16px;
+}
