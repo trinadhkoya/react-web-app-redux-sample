@@ -10,7 +10,7 @@ export const getGitHubUsers = () => {
         dispatch({type: LOADING_GIT_USERS});
 
 
-        axios(BASE_URL + 'users').then(function (response) {
+        axios(BASE_URL + 'users/trinadhkoya/repos?').then(function (response) {
 
             if (response.status === 200) {
 
